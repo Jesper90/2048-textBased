@@ -34,6 +34,7 @@ public class Start {
 	
 	void runGame() {
 		
+		
 	}
 	
 	// Return random number for position on board
