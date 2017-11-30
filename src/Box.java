@@ -13,6 +13,13 @@ public class Box {
 		}
 	}
 	
+	boolean isEmpty() {
+		if(value == 0) {
+			return true;
+		}
+		return false;
+	}
+	
 	int getValue() {
 		return value;
 	}
@@ -21,6 +28,10 @@ public class Box {
 		System.out.println(value);
 		value *= 2;
 		System.out.println(value);
+	}
+	
+	void setEmpty() {
+		value = 0;
 	}
 	
 }
